@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista div-produtos</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+          <a href="/index.html">inicial</a>
+          <a href="/quem somos.html">Quem somos</a>
+          <a href="/lista.html">lista</a>
+          <a href="/formulario.html">formulario</a>
+        </nav>
+    </header>
+    <style>
+        .lista-produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+           
+        }
+
+        .lista-produtos > div{
+            border: solid 1px black;
+            width: 150px;
+        }
+        
+        .lista-produtos > h5{
+            background-color: lightblue;
+        }
+
+        nav{
+        display: flex;
+        justify-content:space-evenly;
+    }  
+        a {
+           text-decoration: none;
+           color: blueviolet;
+           font-weight: bold;
+        transition: 0.3s ease;
+        }
+
+         a:houver { 
+            color: blue;
+            text-decoration: underline;
+         }
+         section{
+         background-color: gray;
+
+         }
+     </style>
+     <main>
+        <h1> Produtos </h1>
+    </main>
+    <section class="lista-produtos">
+        <div>
+           <div>
+            <img src="R.jpg"/>
+           </div>
+            <h4>Produto 01</h4>
+            <p>Texto produto 01</p>
+            <h5>R$60.00</h5>
+        </div>
+        <div>
+            <h4>Produto 02</h4>
+            <p>Texto produto 02</p>
+            <h5>R$60.00</h5>
+        </div>
+        <div>
+            <h4>Produto 03</h4>
+            <p>Texto produto 03</p>
+            <h5>R$60.00</h5>
+        </div>
+        <div>
+            <h4>Produto 04</h4>
+            <p>Texto produto 04</p>
+            <h5>R$60.00</h5>
+        </div>
+    </section>
+
+</body>
+</html>

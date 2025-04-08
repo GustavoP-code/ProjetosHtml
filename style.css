@@ -6,3 +6,9 @@ body{
 
 }
 table , td , th{border:1px solid black ;}
+
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: aqua;
+}  
